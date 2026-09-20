@@ -1,0 +1,16 @@
+{
+  "name": "cert-release-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Certificate release platform with emergency takeover (NestJS + PostgreSQL + Vue 3 + node simulator)",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix web install",
+    "db": "npm --prefix server run db",
+    "dev:server": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev",
+    "dev:simulator": "npm --prefix simulator start",
+    "seed": "node scripts/seed.js",
+    "build": "npm --prefix server run build && npm --prefix web run build",
+    "test": "npm --prefix server run test"
+  }
+}

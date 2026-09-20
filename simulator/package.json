@@ -1,0 +1,10 @@
+{
+  "name": "cert-node-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Managed-node simulator: receives cert push requests and calls back with receipts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
